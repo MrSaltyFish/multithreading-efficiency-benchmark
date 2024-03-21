@@ -2,14 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "basicParallelSum",
+      "request": "launch",
+      "mainClass": "basicParallelSum",
+      "projectName": "multithreading-efficiency-benchmark_caaee3a9"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "l:/Git/multithreading-efficiency-benchmark",
-      "program": "l:/Git/multithreading-efficiency-benchmark/build/Debug/outDebug",
+      "cwd": "l:/Git/multithreading-efficiency-benchmark/basicParallelSum",
+      "program": "l:/Git/multithreading-efficiency-benchmark/basicParallelSum/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
