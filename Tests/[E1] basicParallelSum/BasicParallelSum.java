@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class basicParallelSum {
+public class BasicParallelSum {
     // Function to calculate the sum of elements in a chunk of the array
     public static int calculateChunkSum(List<Integer> arr, int start, int end) {
         int sum = 0;
@@ -79,10 +79,11 @@ public class basicParallelSum {
             arr.add(i + 1); // Populate with sequential numbers
         }
 
+        // Perform single-threaded summation for comparison
+        singleThreadedSum(arr);
+
         // Perform parallel summation
         parallelSum(arr, numThreads);
 
-        // Perform single-threaded summation for comparison
-        singleThreadedSum(arr);
     }
 }

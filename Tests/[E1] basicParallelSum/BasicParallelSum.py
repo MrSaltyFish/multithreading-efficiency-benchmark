@@ -53,8 +53,10 @@ if __name__ == "__main__":
     # Create a large array
     arr = list(range(1, array_size + 1))
 
+    # Perform single-threaded summation for comparison
+    single_threaded_sum(arr)
+
     # Perform parallel summation
     parallel_sum(arr, num_threads)
 
-    # Perform single-threaded summation for comparison
-    single_threaded_sum(arr)
+

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ThreadJoinOverhead",
+      "request": "launch",
+      "mainClass": "ThreadJoinOverhead",
+      "projectName": "multithreading-efficiency-benchmark_caaee3a9"
+    },
+    {
+      "type": "java",
+      "name": "threadSleepAndWakeup",
+      "request": "launch",
+      "mainClass": "threadSleepAndWakeup",
+      "projectName": "multithreading-efficiency-benchmark_caaee3a9"
+    },
+    {
+      "type": "java",
+      "name": "ThreadSleepAndWakeUp",
+      "request": "launch",
+      "mainClass": "ThreadSleepAndWakeUp",
+      "projectName": "multithreading-efficiency-benchmark_caaee3a9"
+    },
+    {
+      "type": "java",
       "name": "basicParallelSum",
       "request": "launch",
       "mainClass": "basicParallelSum",
@@ -15,8 +36,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "l:/Git/multithreading-efficiency-benchmark/basicParallelSum",
-      "program": "l:/Git/multithreading-efficiency-benchmark/basicParallelSum/build/Debug/outDebug",
+      "cwd": "l:/Git/multithreading-efficiency-benchmark/Tests/[E3] threadJoinOverhead",
+      "program": "l:/Git/multithreading-efficiency-benchmark/Tests/[E3] threadJoinOverhead/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

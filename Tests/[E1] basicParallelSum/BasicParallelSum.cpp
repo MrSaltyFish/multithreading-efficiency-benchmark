@@ -80,11 +80,11 @@ int main() {
         arr[i] = i + 1;  // Populate with sequential numbers
     }
 
-    // Perform parallel summation
-    parallelSum(arr, numThreads);
-
     // Perform single-threaded summation for comparison
     singleThreadedSum(arr);
+
+    // Perform parallel summation
+    parallelSum(arr, numThreads);
 
     return 0;
 }
